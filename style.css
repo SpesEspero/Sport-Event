@@ -143,7 +143,6 @@ pre{
     text-align: right;
     line-height: 1;
     mix-blend-mode:screen;
-    font-size:
 }
 
 .content_title--second{
@@ -386,7 +385,7 @@ aside--burger:focus{
 
     .content_text--second p {
         margin-bottom: 31vh;
-        margin-left: 2.8rem;
+        margin-left: 2.92rem;
     }
 }
 
@@ -422,8 +421,9 @@ aside--burger:focus{
         max-width: 23rem;
     }
     .content_text--second p {
-        margin-left: 0.96rem;
+        margin-left: 3rem;
         margin-bottom: 38vh;
+        letter-spacing: 0.3rem;
     }
 }
 
@@ -453,7 +453,7 @@ aside--burger:focus{
         max-width: 18rem;
     }
     .content_text--second p {
-        margin-left: 1rem;
+        margin-left: 2rem;
     }
     /*Aside*/
 
@@ -616,6 +616,7 @@ aside--burger:focus{
 @media(max-width: 500px){
     .content_title, .content_title--second{
         font-size: 3rem;
+        letter-spacing: 0.2rem;
     }
 
     .content_text, .content_text--second{
@@ -623,13 +624,13 @@ aside--burger:focus{
     }
 
     .content_text p {
-        margin-right: 2.3rem;
+        margin-right: 2.65rem;
         margin-bottom: 25vh;
-        max-width: 14rem;
+        max-width: 13rem;
     }
     .content_text--second p {
-        margin-left: 1.1rem;
         margin-bottom: 38vh;
+        letter-spacing: 0.1rem;
     }
 }
 
@@ -637,7 +638,7 @@ aside--burger:focus{
 @media(max-width: 390px){
     .content_title, .content_title--second{
         font-size: 2.5rem;
-        letter-spacing: 0.2rem;
+        letter-spacing: 0.15rem;
     }
 
     .content_text, .content_text--second{
@@ -645,9 +646,10 @@ aside--burger:focus{
     }
 
     .content_text p {
-        margin-right: 0rem;
+        margin-right: 0.9rem;
+        max-width: 12rem;
     }
     .content_text--second p {
-        margin-left: 0.2rem;
+        margin-left: 1.4rem;
     }
 }
